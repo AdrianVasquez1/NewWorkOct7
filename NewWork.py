@@ -103,6 +103,8 @@ print(taskCat)
 # \ooo
 # \xhh
 
+#It allows for coding of multiple lines and tasks in one set of code
+
 # What's the following code do:
 # while True
 #   for i in ["/", "-", "|", "\\", "|"]:
