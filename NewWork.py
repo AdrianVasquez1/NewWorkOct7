@@ -1,4 +1,4 @@
-# There is a comparison in between a string that describes the number of people
+# There is a comparison in between ring that describes the number of people
 x = "There are %d types of people." % 10
 binary = "binary"
 doNot = "don't"
@@ -59,3 +59,53 @@ months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
 
 print("Here are the days: ", days)
 print("Here are the months: ", months)
+
+print("""
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
+""")
+
+# What if I didn't Jan being listed on the line with the rest of the
+# text and away from the months? How could I fix that?\
+
+tabbyCat = "\tI'm tabbed in."
+persianCat = "I'm split\non time."
+backslashCat = "I'm \\ a \\ cat."
+taskCat =  """
+I'll make a list:
+\t*Cat Food
+\t*Fishies
+\t*Catnip\n\t* Grass
+"""
+
+print(tabbyCat)
+print(persianCat)
+print(backslashCat)
+print(taskCat)
+
+# Escape Seq what does it do?
+
+# \\
+# \'
+# \"
+# \a
+# \b
+# \f
+# \n
+# \N{name}
+# \r
+# \t
+# \uxxx
+# \uxxxxxxxx
+# \v
+# \ooo
+# \xhh
+
+# What's the following code do:
+# while True
+#   for i in ["/", "-", "|", "\\", "|"]:
+#       print("%s\r" % i, end='')
+
+# Can you replace """ with '''?
