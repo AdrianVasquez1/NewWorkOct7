@@ -52,3 +52,10 @@ print(formatter % (True, False, False, True))
 print(formatter % (formatter, formatter, formatter, formatter))
 
 # Why did it use %r instead of %s?
+# We formatted the code with %r instead of %s
+
+days = "Mon Tue Wed Thu Fri Sat Sun"
+months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec"
+
+print("Here are the days: ", days)
+print("Here are the months: ", months)
