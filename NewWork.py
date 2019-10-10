@@ -111,3 +111,12 @@ print(taskCat)
 #       print("%s\r" % i, end='')
 
 # Can you replace """ with '''?
+
+# Yes because both are used to avoid escape sequences
+
+# Asking Questions
+
+age = input("How old are you? ")
+height = ("How tall are you? ")
+
+print("So, you really %r old and %r tall? Wow..." % (age, height))
